@@ -1,0 +1,9 @@
+[submodule "geant4"]
+	path = geant4
+	url = git@github.com:Geant4/geant4.git
+[submodule "DD4hep"]
+	path = DD4hep
+	url = git@github.com:AIDASoft/DD4hep.git
+[submodule "epic"]
+	path = epic
+	url = git@github.com:eic/epic.git
