@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(ls -la /c/dev/geant4-dd4hep-eic-workbench/epic/*.py)",
+      "Bash(find /c/dev/geant4-dd4hep-eic-workbench -name *action* -o -name *physics* -o -name *steering*)",
+      "Bash(grep -r \"region\\\\|limit\\\\|physics\\\\|decay\\\\|tracking\" /c/dev/geant4-dd4hep-eic-workbench/epic/compact/*.xml)",
+      "Bash(find /c/dev/geant4-dd4hep-eic-workbench -type d -name \"scripts\\\\|examples\\\\|test\")",
+      "Bash(ls /c/dev/geant4-dd4hep-eic-workbench/epic/compact/*.xml)",
+      "Bash(grep -r \"Geant4\\\\|DDG4\\\\|action\\\\|physics\" /c/dev/geant4-dd4hep-eic-workbench/epic/README*)",
+      "Bash(xargs cat:*)",
+      "Bash(grep -n \"B0.*zpos\\\\|B0.*zmin\\\\|B0.*IP_distance\\\\|B0ECal_IP\" /c/dev/geant4-dd4hep-eic-workbench/epic/compact/far_forward/*.xml)",
+      "Bash(grep -E \"B0.*zpos|B0.*IP_distance\" /c/dev/geant4-dd4hep-eic-workbench/epic/compact/far_forward/*.xml)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "Bash(ls /c/dev/geant4-dd4hep-eic-workbench/epic/compact*.xml)",
+      "Bash(git log:*)",
+      "Bash(grep -rn \"ZDC\\\\|B0_ECal\" compact/epic*.xml)",
+      "Bash(grep -rn \"ZDC\\\\|B0.ECal\\\\|B0_ECal\\\\|B0.preshower\\\\|far_forward\" /c/dev/geant4-dd4hep-eic-workbench/epic/compact/subsystem_assembly/*.xml)",
+      "Bash(find /c/dev/geant4-dd4hep-eic-workbench/epic/compact -name \"*.xml\" -exec grep -l \"ZDC\\\\|B0_ECal\\\\|B0_preshower\" {} \\\\;)",
+      "Bash(grep -rn \"far_forward/default\\\\|far_forward\" /c/dev/geant4-dd4hep-eic-workbench/epic/epic*.xml)",
+      "Bash(find /c/dev/geant4-dd4hep-eic-workbench/epic -maxdepth 1 -name \"*.xml\" -exec grep -l \"far_forward\" {} \\\\;)",
+      "Bash(ls /c/dev/geant4-dd4hep-eic-workbench/epic/*.xml)"
+    ]
+  }
+}
