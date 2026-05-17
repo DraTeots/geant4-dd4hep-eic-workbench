@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="epic" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--compactFile=$DETECTOR_PATH/epic_craterlake_10x100.xml --runType=run --inputFiles=/input/ --outputFile=/output/ --numberOfEvents=5000" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epic" TARGET_NAME="epic" CONFIG_NAME="Debug-eicdev/eic-base" RUN_PATH="/app/npsim/bin/npsim">
+    <envs>
+      <env name="DETECTOR_PATH" value="/tmp/geant4-dd4hep-eic-workbench/epic/prefix/share/epic" />
+      <env name="BEAMLINE_PATH" value="/tmp/geant4-dd4hep-eic-workbench/epic/prefix/share/epic" />
+      <env name="DETECTOR" value="epic" />
+      <env name="BEAMLINE" value="epic" />
+    </envs>
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      <option name="CMake.Install" enabled="true" />
+    </method>
+  </configuration>
+</component>

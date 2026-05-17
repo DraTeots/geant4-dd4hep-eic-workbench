@@ -7,3 +7,9 @@
 [submodule "epic"]
 	path = epic
 	url = git@github.com:eic/epic.git
+[submodule "npsim"]
+	path = npsim
+	url = git@github.com:eic/npsim.git
+[submodule "EICrecon"]
+	path = EICrecon
+	url = git@github.com:eic/EICrecon.git

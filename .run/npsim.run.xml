@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="npsim" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epic" TARGET_NAME="npsim" CONFIG_NAME="npsim" RUN_PATH="/app/npsim/bin/npsim">
+    <method v="2">
+      <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      <option name="Make" enabled="true" target="install" />
+    </method>
+  </configuration>
+</component>
